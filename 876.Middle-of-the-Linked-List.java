@@ -1,4 +1,4 @@
-// Logic of 2 pointers
+// Logic of slow & fast pointers
 
 class Solution {
     public ListNode middleNode(ListNode head) {
