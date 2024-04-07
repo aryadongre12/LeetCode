@@ -14,8 +14,8 @@ class Solution {
         ListNode prev = new ListNode();
         prev.next = head;        // initialize prev.next = head;
         int i = 0;                  
-        int idx = size -n;
-        while(i<idx){            // travel from 0 to size-n and just do prev.next = prev.next.next
+        int idx = size - n;
+        while(i < idx){            // travel from 0 to size-n and just do prev.next = prev.next.next
             prev = prev.next;
             i++;
         }
